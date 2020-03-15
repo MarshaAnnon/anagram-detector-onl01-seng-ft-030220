@@ -1,14 +1,14 @@
 require "pry"
 class Anagram
 
-  @@all = []
+  @@match = []
   attr_accessor :word
 
     def initialize(word)
       @word = word
     end
 
-    def match(word)
+    def self.match(word)
 
     end
 
