@@ -10,11 +10,15 @@ class Anagram
       @word = word
     end
 
-    def self.match(array)
-      #array.map do | words |
-        #(@word.split("")).sort == (words.split("")).sort
-        #@@match << array
-      
+    def match(array)
+    arr = []
+    array.each do |anagram|
+      if anagram.split("").sort == @word.split("").sort
+        arr << anagram
+      end
+    end
+    arr
+  end
     end
 
 
