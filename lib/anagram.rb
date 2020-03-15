@@ -11,9 +11,9 @@ class Anagram
     end
 
     def self.match(array)
-      array.map do | words |
-        (@word.split("")).sort == (words.split("")).sort
-        @@match << array
+      #array.map do | words |
+        #(@word.split("")).sort == (words.split("")).sort
+        #@@match << array
       end
     end
 
