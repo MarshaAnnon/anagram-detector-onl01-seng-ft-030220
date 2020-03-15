@@ -9,6 +9,9 @@ class Anagram
       @@all << self
     end
 
-    
+    def self
+      Anagram.each.match? do |word|
+
+    end
 
 end
