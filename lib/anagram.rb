@@ -9,8 +9,6 @@ class Anagram
       @@all << self
     end
 
-    def self.match
-
-    end
+    
 
 end
