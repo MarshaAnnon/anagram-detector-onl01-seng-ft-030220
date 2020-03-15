@@ -10,9 +10,6 @@ class Anagram
     end
 
     def self.match
-
-
-
     end
 
 end
