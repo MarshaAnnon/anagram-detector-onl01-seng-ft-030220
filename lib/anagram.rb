@@ -16,7 +16,7 @@ class Anagram
         array << anagram
       end
     end
-    arr
+    array
   end
 
 
