@@ -10,13 +10,13 @@ class Anagram
     end
 
     def match(array)
-    array = []
+    array_new = []
     array.each do |anagram|
       if anagram.split("").sort == @word.split("").sort
-        array << anagram
+        array_new << anagram
       end
     end
-    array
+    array_new
   end
 
 
