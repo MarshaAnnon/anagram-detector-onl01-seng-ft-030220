@@ -1,7 +1,6 @@
 require "pry"
 class Anagram
 
-@@match = []
 
   attr_accessor :word
 
@@ -19,7 +18,7 @@ class Anagram
     end
     arr
   end
-    
+
 
 
 
