@@ -1,7 +1,7 @@
 require "pry"
 class Anagram
 
-  @@match = []
+  @@all = []
   attr_accessor :word
 
     def initialize(word)
