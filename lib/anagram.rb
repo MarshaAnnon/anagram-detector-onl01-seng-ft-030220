@@ -10,6 +10,7 @@ class Anagram
     end
 
     def self.match
+      @@all << match
     end
 
 end
