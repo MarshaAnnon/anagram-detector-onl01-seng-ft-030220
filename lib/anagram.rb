@@ -8,7 +8,5 @@ class Anagram
       @word = word
     end
 
-    def parse
-      email.split(/, | /).uniq
-    end
+    
 end
