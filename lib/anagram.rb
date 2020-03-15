@@ -10,7 +10,12 @@ class Anagram
       @word = word
     end
 
-    def self.match
+    def self.match(array)
+      array.map do | words |
+        @word.split("").sort == words.split("").sort
+      end
+    end
+      
 
 
 
